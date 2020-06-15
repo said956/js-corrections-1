@@ -48,14 +48,14 @@
         
         
         // appel de la fonction de vrai aléatoire dans une variable.
-        // on recupere le zozio en question de l'index en question.
+        // on recupere l'oiseau en question de l'index en question.
         var birdIndex = RealRand(birds.length);
         var bird = birds[birdIndex].name;  
         
         // transformation du set en tableau. et on recuper le bon adjectif dans une variable directe
         var adj = Array.from(adjectives)[RealRand(adjectives.size)]; 
 
-        // si l'objet bords contient une propriété fem, on lui dit que c'est l'article "la", sinon c'est "le".
+        // si l'objet birds contient une propriété fem, on lui dit que c'est l'article "la", sinon c'est "le".
         var artDef = (birds[birdIndex].fem != undefined)? "la" : "le"; 
         adj +=  (birds[birdIndex].fem != undefined)? "e" : ""; // pareil qu'au dessus, on ajoute E au pronom i l'objet birds contient une propriété fem
         
