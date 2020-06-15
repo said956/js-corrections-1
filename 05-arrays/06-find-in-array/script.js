@@ -91,7 +91,7 @@
 
     document.getElementById("run").addEventListener("click", () => {
 
-        people.forEach((person, index) => { // check this  condition for  every element in  this tableau
+        people.forEach((person, index) => { // check this  condition for  every element in  this array
             if (person.firstname == "Jean" && person.lastname == "Dupont") {
                 console.log(  person.lastname + " " + person.firstname + " details:" + "\n" + "Email: " + person.email + "\n" + "Index: " + index);
             }
