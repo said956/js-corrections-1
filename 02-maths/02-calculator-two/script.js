@@ -19,7 +19,7 @@
         switch (operation) { //boucles switch ==> dans chaque cas, faire ...
             case "addition": // dans le cas du bouton qui s'appelle "addition"
                 alert(x + y); // ... faire cette opération
-                break; // casser la bloucles
+                break; // casser la boucles
             case "substraction":
                 alert(x - y);
                 break;
